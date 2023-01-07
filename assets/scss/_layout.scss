@@ -263,6 +263,14 @@ hr {
   margin-top: $base-spacing * 2;
 }
 
+.propic {
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
 // This applies from 0px to 600px
 @media (max-width: 600px) {
   .date-label {
