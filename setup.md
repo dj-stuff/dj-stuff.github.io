@@ -40,4 +40,5 @@ RAM: 12GB
 
 OS: crDroidAndroid, based on Android 13
 
-<b>Others:</b> OnePlus 7Pro, OnePlus 6T, Redmi Note 8 Pro, Redmi Note 8T, Redmi Note 8
+## Others
+OnePlus 7Pro, OnePlus 6T, Redmi Note 8 Pro, Redmi Note 8T, Redmi Note 8
