@@ -312,4 +312,18 @@ hr {
       color: $blue-color;
     }
   }
+
+  .logo {
+    float: left;
+    margin: 0 0 1em 0;
+    cursor: pointer;
+    letter-spacing: 0.6px;
+    font-size: 15px;
+    line-height: 14px;
+    font-weight: 150;
+  
+    span {
+      font-weight: 500;
+    }
+  }
 }
