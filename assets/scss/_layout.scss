@@ -271,6 +271,21 @@ hr {
   border-radius: 50%;
 }
 
+.linkpic {
+  margin-right: 10%;
+
+  padding-bottom: .05em;
+  border-bottom: 2px solid transparent;
+
+  @include transition(border 300ms linear);
+
+  &:hover,
+  &:focus,
+  &:active {
+    border-bottom: 2px solid;
+  }
+}
+
 // This applies from 0px to 600px
 @media (max-width: 600px) {
   .date-label {
