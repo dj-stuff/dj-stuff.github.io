@@ -1,10 +1,25 @@
 
+<script>
+  function handleButtons() {
+    switch(window.location.pathname) {
+      case "/blog/":
+        document.getElementById("blog").remove();
+        break;
+      case "/about/":
+        document.getElementById("about").remove();
+        break;
+    }
+  }
+
+  window.onload = handleButtons;
+</script>
+
 <nav class="nav">
   <div class="container">
     <h1 class="logo"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title_left }}<span>{{ site.title_right }}</span></a></h1>
     <ul class="navbar">
-      <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About me</a></li>
-      <li><a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">Blog</a></li>
+      <li id="about"><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About me</a></li>
+      <li id="blog"><a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">Blog</a></li>
     </ul>
   </div>
 </nav>
