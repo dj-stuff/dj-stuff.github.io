@@ -1,9 +1,6 @@
 <script>
   function handleButtons() {
     switch(window.location.pathname) {
-      case "/":
-        document.getElementById("home").remove();
-        break;
       case "/blog/":
         document.getElementById("blog").remove();
         break;
@@ -22,7 +19,6 @@
     <ul class="navbar">
       <li id="about" ><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About me</a></li>
       <li id="blog" ><a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">Blog</a></li>
-      <li id="home" ><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">Home</a></li>
     </ul>
   </div>
 </nav>
